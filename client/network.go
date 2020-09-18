@@ -723,6 +723,10 @@ func parseServer(server string, testing bool) (serverIdentity *[32]byte, host st
 			err = errors.New("host is not a .onion address")
 			return
 		}
+		if len(host) < 56 {
+			err = errors.New("host onion is not a v3 current generation address")
+			return
+		}
 		host += ":16333"
 	}
 
