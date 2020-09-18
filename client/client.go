@@ -720,8 +720,8 @@ var knownServers = []struct {
 	description string
 	uri         string
 }{
-	{"wau", "Wau Holland Foundation", "pondserver://25WHHEVD3565FGIOXJZWV7LGQFR4BTO3HF3FWHEW7PCYPFMFPVOQ@vx652n4utsodj5c6.onion"},
-	{"hoi", "Hoi Polloi (https://hoi-polloi.org)", "pondserver://4V6Q5M2AFLBW6UIYL2B5LMKDHEBA6HRHR6UIUU3VDQFNI3BHZAEQ@oum7argqrnlzpcro.onion"},
+	{"tst1", "Test server 1", "pondserver://QFR4BTO3HF3FWHEW7PCYPFMFPVOQ25WHHEVD3565FGIOXJZWV7LG@httqp22ducy7tvdriwhpowpbaoar4fppmx6s2bguppas6bgufwsapsqd.onion"},
+	{"tst2", "Test server 2", "pondserver://HEBA6HRHR6UIUU3VDQFNI3BHZAEQ4V6Q5M2AFLBW6UIYL2B5LMKD@t3omaidqlbdou2o5ihfrmqn6k4w763v3zggrnxctuqo5vfvizuxbcbyd.onion"},
 }
 
 func (c *client) enqueue(m *queuedMessage) {
